@@ -1,8 +1,8 @@
 (function (Parser) {
     'use strict';
 
-    var async = require('async'),
-        cloneRegexp = require('clone-regexp');
+    var async = require.main.require('async');
+    var cloneRegexp = require.main.require('clone-regexp');
 
     var constants = require('./constants');
 

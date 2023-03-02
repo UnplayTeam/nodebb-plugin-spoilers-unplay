@@ -1,8 +1,8 @@
 {
-  "id": "nodebb-plugin-ns-spoiler",
-  "name": "NodeBB Spoiler",
-  "description": "Spoiler. Ability to control visibility of the content in posts. Works better with Markdown syntax.",
-  "url": "https://github.com/NicolasSiver/nodebb-plugin-ns-spoiler",
+  "id": "nodebb-plugin-spoilers-unplay",
+  "name": "Unplay Spoilers",
+  "description": "Customized version of nodebb-plugin-ns-spoiler for Unplay.",
+  "url": "https://github.com/UnplayTeam/nodebb-plugin-spoilers-unplay",
   "library": "./plugin/index.js",
   "hooks": [
     {

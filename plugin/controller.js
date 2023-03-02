@@ -1,7 +1,7 @@
 (function (Controller) {
     'use strict';
 
-    var async = require('async');
+    var async = require.main.require('async');
 
     var constants = require('./constants'),
         nodebb    = require('./nodebb'),

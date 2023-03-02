@@ -1,14 +1,10 @@
 {
-  "name": "nodebb-plugin-ns-spoiler",
+  "name": "nodebb-plugin-spoilers-unplay",
   "version": "8.0.0",
   "description": "Spoiler. Ability to control visibility of the content in posts. Works better with Markdown syntax.",
   "main": "./plugin/index.js",
   "scripts": {
     "test": "mocha -r ./test/setup --recursive"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NicolasSiver/nodebb-plugin-ns-spoiler.git"
   },
   "keywords": [
     "spoiler",
@@ -16,12 +12,7 @@
     "content",
     "composer"
   ],
-  "author": "Nicolas Siver",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/NicolasSiver/nodebb-plugin-ns-spoiler/issues"
-  },
-  "homepage": "https://github.com/NicolasSiver/nodebb-plugin-ns-spoiler#readme",
+  "author": "Sam Hooker",
   "nbbpm": {
     "compatibility": "^1.18.0"
   },
